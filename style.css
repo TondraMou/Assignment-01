@@ -104,7 +104,6 @@
     width: 1140px;
     height: 1395px;
     margin: 0 auto;
-    border: 1px solid white;
     margin-bottom: 88px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -112,7 +111,9 @@
 .development-container{
     width: 946px;
     height: 1235px;
-    margin: 80px 97px;
+    margin-bottom: 80px;
+    margin-right: 97px;
+    margin-left: 97px;
 }
 .development-title{
     display: flex;
@@ -120,6 +121,7 @@
     align-items: center;
 }
 .development-title h1{
+    margin-top: 80px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
