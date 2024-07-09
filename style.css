@@ -41,13 +41,61 @@
 .hero{
     width: 1440px;
     height: 652px;
-    border: 3px solid red;
     margin: 0 auto;
     background-image: url(assets/Herobg.png);
+    margin-bottom: 74px;
 }
 .hero-container{
     width: 998px;
     height: 582px;
-    border: 3px solid red;
     margin: 26px 221px 44px 221px;
+}
+.hero-img{
+    width: 240.28px;
+    height: 240px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.hero-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.contact-btn{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
 }
