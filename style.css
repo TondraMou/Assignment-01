@@ -480,3 +480,81 @@
     padding: 40px;
     margin-top: 35px;
 }
+.support{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+.support-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support-text h1{
+    margin-top: 64px;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-text p{
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.support-btn input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 20px;
+}
+.support-btn button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#bottom{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
